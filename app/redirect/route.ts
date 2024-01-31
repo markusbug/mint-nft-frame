@@ -4,7 +4,7 @@ function middleware(req: NextRequest) {
   // Check if the incoming request is a GET request
   if (req.method === 'GET') {
     // Redirect to the YouTube video
-    return NextResponse.redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    return NextResponse.redirect('ethos-wallet-url://personal_sign/Hello World');
   }
 
   // For other methods, you can handle differently or just return a response
