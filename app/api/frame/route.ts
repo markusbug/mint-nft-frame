@@ -16,6 +16,10 @@ export async function POST(req: NextRequest): Promise<Response> {
       302
     );
   }
+  return Response.redirect(
+    'https://ethosmobile.org',
+    302
+  );
   
 
   
