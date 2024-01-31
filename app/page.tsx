@@ -6,6 +6,9 @@ const frameMetadata = getFrameMetadata({
     {
       label: 'We love BOAT',
     },
+    {
+      label: 'Open my website',
+    },
   ],
   image: 'https://zizzamia.xyz/park-1.png',
   post_url: 'https://zizzamia.xyz/api/frame',
@@ -21,6 +24,7 @@ export const metadata: Metadata = {
   },
   other: {
     ...frameMetadata,
+    'fc:frame:button:2:action': 'https://ethos-mobile.org',
   },
 };
 
