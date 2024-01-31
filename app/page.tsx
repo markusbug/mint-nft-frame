@@ -1,15 +1,7 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const frameMetadata = getFrameMetadata({
-  buttons: [
-    {
-      label: 'Test',
-    },
-  ],
-  image: 'https://zizzamia.xyz/park-1.png',
-  post_url: 'https://test-frame-six.vercel.app/api/frame',
-});
+
 
 export const metadata: Metadata = {
   title: 'zizzamia.xyz',
@@ -20,9 +12,11 @@ export const metadata: Metadata = {
     images: ['https://zizzamia.xyz/park-1.png'],
   },
   other: {
-    ...frameMetadata,
-    'fc:frame:button:2': 'Open Website',
-    'fc:frame:button:2:action': 'post_redirect'
+    'fc:frame': 'vNext',
+    'fc:frame:button:1': 'Open Website',
+    'fc:frame:button:1:action': 'post_redirect',
+    'fc:frame:image': 'https://redirect-frame.vercel.app/video.png',
+    'fc:frame:post_url': 'https://test-frame-six.vercel.app/api/frame'
   },
 };
 
