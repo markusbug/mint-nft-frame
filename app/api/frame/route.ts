@@ -3,26 +3,10 @@ import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase
 
 
 export async function POST(req: NextRequest): Promise<Response> {
-  try {
-    const body: FrameRequest = await req.json();
-    const { isValid, message } = await getFrameMessage(body);
-    if (isValid) {
-      return new NextResponse(
-      );
-    }
-  } catch(e) {
-    return Response.redirect(
-      'https://ethosmobile.org',
-      302
-    );
-  }
   return Response.redirect(
     'https://ethosmobile.org',
     302
   );
-  
-
-  
 
   
 }
