@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'fc:frame:button:1': 'Open Website',
     'fc:frame:button:1:action': 'post_redirect',
     'fc:frame:image': 'https://redirect-frame.vercel.app/video.png',
-    'fc:frame:post_url': 'https://redirect-frame.vercel.app/api/frame'
+    'fc:frame:post_url': 'https://test-frame-six.vercel.app/api/frame'
   },
 };
 
