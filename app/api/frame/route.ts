@@ -1,12 +1,11 @@
-import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
-  // This is where you set the 302 redirect response
+  // Set the 302 redirect response to the "/redirect" path
   const response = new NextResponse(null, {
     status: 302,
     headers: {
-      'Location': 'https://google.com',
+      'Location': '/redirect', // Redirect to the "/redirect" path
     },
   });
 
