@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   other: {
     ...frameMetadata,
-    'fc:frame:button:2:action': 'https://ethos-mobile.org',
+    'fc:frame:button:2': 'https://ethos-mobile.org',
   },
 };
 
