@@ -4,10 +4,7 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'We love BOAT',
-    },
-    {
-      label: 'Open my website',
+      label: 'Test',
     },
   ],
   image: 'https://zizzamia.xyz/park-1.png',
@@ -24,7 +21,8 @@ export const metadata: Metadata = {
   },
   other: {
     ...frameMetadata,
-    'fc:frame:button:2:post_redirect': 'Open Website',
+    'fc:frame:button:2': 'Open Website',
+    'fc:frame:button:2:action': 'post_redirect'
   },
 };
 
