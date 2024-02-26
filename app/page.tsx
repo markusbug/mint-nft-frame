@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'fc:frame': 'vNext',
     'fc:frame:button:1': 'Open Website',
     'fc:frame:button:1:action': 'link',
-    'fc:frame:button:1:target': 'ethos-wallet-url://personal_sign/Hello World',
+    'fc:frame:button:1:target': 'https://ethos-wallet-url://personal_sign/Hello World',
     'fc:frame:image': 'https://redirect-frame.vercel.app/video.png',
     'fc:frame:post_url': 'https://test-frame-six.vercel.app/api/frame'
   },
