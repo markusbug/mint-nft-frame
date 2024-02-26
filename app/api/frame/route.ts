@@ -4,7 +4,7 @@ import { FrameRequest, getFrameAccountAddress, getFrameMessage } from '@coinbase
 
 export async function POST(req: NextRequest): Promise<Response> {
   return Response.redirect(
-    'https://test-frame-six.vercel.app/redirect',
+    'https://google.com',
     302
   );
 

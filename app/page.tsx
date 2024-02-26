@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   other: {
     'fc:frame': 'vNext',
     'fc:frame:button:1': 'Open Website',
-    'fc:frame:button:1:action': 'post_redirect',
+    'fc:frame:button:1:action': 'link',
     'fc:frame:image': 'https://redirect-frame.vercel.app/video.png',
     'fc:frame:post_url': 'https://test-frame-six.vercel.app/api/frame'
   },
