@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:button:1': 'Mint NFT in-feed',
+    'fc:frame:button:1': 'Send 0.0001 eth to mhaas.eth',
     'fc:frame:button:1:action': 'link',
     'fc:frame:button:1:target': 'https://ethos-wallet-url/sendTransaction/0x3a4e6eD8B0F02BFBfaA3C6506Af2DB939eA5798c/0.0001/0/1',
     'fc:frame:image': 'https://test-frame-six.vercel.app/framepic.png',
