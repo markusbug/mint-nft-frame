@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:button:1': 'Send 0.0001 eth to mhaas.eth',
+    'fc:frame:button:1': 'Mint in-feed on ethOS',
     'fc:frame:button:1:action': 'link',
-    'fc:frame:button:1:target': 'https://ethos-wallet-url/sendTransaction/0x3a4e6eD8B0F02BFBfaA3C6506Af2DB939eA5798c/0.0001/0/1',
+    'fc:frame:button:1:target': 'https://ethos-wallet-url/sendTransaction/0x1297766F4e2B28367C2073D26723e9F107465bF6/0.0/0x1249c58b/10',
     'fc:frame:image': 'https://test-frame-six.vercel.app/framepic.png',
     'fc:frame:post_url': 'https://test-frame-six.vercel.app/api/frame'
   },
